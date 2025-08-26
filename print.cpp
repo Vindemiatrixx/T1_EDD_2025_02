@@ -46,9 +46,12 @@ void Mostrar_Datos_Alumno(Dato* datos, int tamanio){
                     << std::setw(12) << "CURSO" 
                     << std::setw(17) << "FECHA NAC." 
                     << std::setw(5) << "VTR" 
+                    << std::setw(8)  << "NOTA 1"
+                    << std::setw(8)  << "NOTA 2"
+                    << std::setw(8)  << "NOTA 3"
                     << std::endl;
 
-    for (int i = 0; i < 5 && i < tamanio; i++) {
+    for (unsigned int i = 0; i < 5 && i < tamanio; i++) {
 
         std::cout << std::left
                     << std::setw(8) << datos[i].Id 
@@ -56,6 +59,9 @@ void Mostrar_Datos_Alumno(Dato* datos, int tamanio){
                     << std::setw(12) << datos[i].Curso 
                     << std::setw(17) << datos[i].Fecha_Nacimiento 
                     << std::setw(5) << datos[i].VTR 
+                    << std::setw(8)  << datos[i].Notas[0]  
+                    << std::setw(8)  << datos[i].Notas[1]  
+                    << std::setw(8)  << datos[i].Notas[2]  
                     << std::endl;
     }
 }
