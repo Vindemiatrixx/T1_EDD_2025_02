@@ -17,7 +17,7 @@ void Menú(){
     std::cout << 
         "1) Agregar un alumno.\n" <<
         "2) Obtener promedio de un estudiante.\n" << 
-        "3) Obtener por evaluación de una asignatura.\n" <<
+        "3) Obtener promedio por evaluación de una asignatura.\n" <<
         "4) Obtener los cursos en los que está inscrito un estudiante.\n" <<
         "5) Obtener los reprobados de un curso con cierto VTR.\n" <<
         "6) Generar informe por cursos.\n" <<
