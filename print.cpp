@@ -25,7 +25,7 @@ void Menú(){
         "Ingrese su opción: ";  
 }
 
-void Mostrar_Datos_Alumno(Dato* datos, int tamanio){
+void Mostrar_Datos_Alumno(Dato* datos, unsigned int tamanio){
 
     /*
     *    Descripción: 
