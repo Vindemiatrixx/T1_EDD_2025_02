@@ -12,6 +12,7 @@ struct Dato{
     unsigned short VTR;   
 };
 
+
 void Menú(){
 
     std::cout << 
